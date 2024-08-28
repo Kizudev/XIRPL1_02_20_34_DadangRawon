@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background: linear-gradient(50deg, rgb(23, 37, 235), rgb(38, 38, 208), rgb(53, 228, 53));
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.tombol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .button-img {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .button-img img{
+   
+    margin-top: 100px;
+    width: 200px;
+
+ }
+
+.tombol button{
+    margin-top: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+
+}
+p{
+    color: blue;
+    text-align: center;
+
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: 0;
+}
+
+img{
+    width: 10%;
+    
+}
+table {
+    border: 2;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 1, 1);
+    border: 2px solid ;
+    padding: 25px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.image img {
+    width: 125px;
+    height: 140px;
+}
+
+table {
+
+    text-align: left;
+    padding: 5px;
+}
+
